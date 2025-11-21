@@ -4,7 +4,7 @@ A simple Java-based web application for 5th semester students to *upload, share,
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload notes, internal papers, and model question papers (MQP).  
 - Categorized by *Subject → Category → Files*.  
@@ -14,7 +14,7 @@ A simple Java-based web application for 5th semester students to *upload, share,
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - *Frontend:* HTML, CSS, JSP  
 - *Backend:* Java Servlets  
@@ -24,35 +24,33 @@ A simple Java-based web application for 5th semester students to *upload, share,
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 
 ChaloStudy/
 │
 ├── src/
-│   └── com/chalostudy/
-│       ├── Servlet.java        # Front controller for page navigation
-│       ├── UploadServlet.java  # Handles file uploads
-│       └── FileUtil.java       # Helper class for listing files
+│ └── com/chalostudy/
+│ ├── Servlet.java # Front controller for page navigation
+│ ├── UploadServlet.java # Handles file uploads
+│ └── FileUtil.java # Helper class for listing files
 │
 ├── WebContent/
-│   ├── index.jsp
-│   ├── subjects.jsp
-│   ├── categories.jsp
-│   ├── upload.jsp
-│   ├── materials.jsp
-│   └── css/
-│       └── style.css
+│ ├── index.jsp
+│ ├── subjects.jsp
+│ ├── categories.jsp
+│ ├── upload.jsp
+│ ├── materials.jsp
+│ └── css/
+│ └── style.css
 │
 ├── WEB-INF/
-│   └── web.xml
+│ └── web.xml
 │
-└── uploads/                     # Auto-generated folders for storing uploaded files
-
-
+└── uploads/ # Auto-generated folders for storing uploaded files
 ---
 
-## ⚙ How to Run Locally
+## How to Run Locally
 
 1. *Clone the repo:*
    bash
@@ -74,7 +72,7 @@ ChaloStudy/
 
 ---
 
-## 📂 File Upload Storage
+## File Upload Storage
 
 Files are stored on the server filesystem:  
 
@@ -85,7 +83,7 @@ uploads/<Subject>/<Category>/<file_name>
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Make sure uploads/ folder has write permissions.  
 - MySQL is optional, only if you want to store metadata about files (uploader, timestamp, etc.).  
@@ -93,7 +91,7 @@ uploads/<Subject>/<Category>/<file_name>
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - User authentication (login/signup).  
 - Role-based access control.  
