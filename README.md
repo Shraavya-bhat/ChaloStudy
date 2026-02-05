@@ -26,7 +26,7 @@ A simple Java-based web application for 5th semester students to *upload, share,
 
 ## Project Structure
 
-
+```
 ChaloStudy/
 │
 ├── src/
@@ -48,6 +48,7 @@ ChaloStudy/
 │ └── web.xml
 │
 └── uploads/ # Auto-generated folders for storing uploaded files
+```
 ---
 
 ## How to Run Locally
